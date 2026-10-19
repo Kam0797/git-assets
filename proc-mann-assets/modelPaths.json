@@ -1,0 +1,220 @@
+{
+  "vad": {
+    "fileName": "silero_vad.onnx",
+    "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
+    "sizeApproxBytes": 665427,
+    "sha256": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6"
+  },
+  "models": [
+    {
+      "id": "en",
+      "name": "English",
+      "nativeName": "English",
+      "engineType": "zipformer",
+      "folder": "zipformer/en",
+      "scriptType": "latin",
+      "unicodeRanges": [[65, 90], [97, 122]],
+      "sizeApproxBytes": 265000000,
+      "files": [
+        {
+          "name": "encoder.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-26/resolve/main/encoder-epoch-99-avg-1-chunk-16-left-128.onnx",
+          "sha256": "a423883ce5754507fd941755ab0b5bc426a84ac670cbe21cf060e9e2c66dc660"
+        },
+        {
+          "name": "decoder.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-26/resolve/main/decoder-epoch-99-avg-1-chunk-16-left-128.onnx",
+          "sha256": "7bf787f90b194b307e5a4ad6a34fadb4e748304c35f78a8d66358a05b13ee6ef"
+        },
+        {
+          "name": "joiner.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-26/resolve/main/joiner-epoch-99-avg-1-chunk-16-left-128.onnx",
+          "sha256": "210591f72b3c56b8364f85f345dca240bc2b4c00632848f4aa923630d5639d3b"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-en-2023-06-26/resolve/main/tokens.txt",
+          "sha256": "49e3c2646595fd907228b3c6787069658f67b17377c60aeb8619c4551b2316fb"
+        }
+      ]
+    },
+    {
+      "id": "ta",
+      "name": "Tamil",
+      "nativeName": "தமிழ்",
+      "engineType": "ctc",
+      "folder": "ctc/ta",
+      "scriptType": "indic",
+      "unicodeRanges": [[2944, 3071]],
+      "sizeApproxBytes": 189000000,
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/ta/model.int8.onnx",
+          "sha256": "abb7b59d706b8d27ba3fb5e5e3db7671c9e1a09bf7bc6122de507c60030e65fb"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/tokens.txt",
+          "sha256": "ee60967630213f31951817ac8b402b92ec18cce80718a24a49b388e56672dfb2"
+        }
+      ]
+    },
+    {
+      "id": "hi",
+      "name": "Hindi",
+      "nativeName": "हिन्दी",
+      "engineType": "ctc",
+      "folder": "ctc/hi",
+      "scriptType": "indic",
+      "unicodeRanges": [[2304, 2431]],
+      "sizeApproxBytes": 189000000,
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/hi/model.int8.onnx"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/tokens.txt"
+        }
+      ]
+    },
+    {
+      "id": "te",
+      "name": "Telugu",
+      "nativeName": "తెలుగు",
+      "engineType": "ctc",
+      "folder": "ctc/te",
+      "scriptType": "indic",
+      "unicodeRanges": [[3072, 3199]],
+      "sizeApproxBytes": 189000000,
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/te/model.int8.onnx"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/tokens.txt"
+        }
+      ]
+    },
+    {
+      "id": "ml",
+      "name": "Malayalam",
+      "nativeName": "മലയാളം",
+      "engineType": "ctc",
+      "folder": "ctc/ml",
+      "scriptType": "indic",
+      "unicodeRanges": [[3328, 3455]],
+      "sizeApproxBytes": 189000000,
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/ml/model.int8.onnx"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/tokens.txt"
+        }
+      ]
+    },
+    {
+      "id": "kn",
+      "name": "Kannada",
+      "nativeName": "ಕನ್ನಡ",
+      "engineType": "ctc",
+      "folder": "ctc/kn",
+      "scriptType": "indic",
+      "unicodeRanges": [[3200, 3327]],
+      "sizeApproxBytes": 189000000,
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/kn/model.int8.onnx"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/parismitaglobalsolutions/indicconformer-sherpa-onnx/resolve/main/tokens.txt"
+        }
+      ]
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "engineType": "zipformer",
+      "folder": "zipformer/fr",
+      "scriptType": "latin",
+      "unicodeRanges": [[65, 90], [97, 122], [192, 255]],
+      "sizeApproxBytes": 140000000,
+      "files": [
+        {
+          "name": "encoder.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-fr-kroko-2025-08-06/resolve/main/encoder.onnx"
+        },
+        {
+          "name": "decoder.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-fr-kroko-2025-08-06/resolve/main/decoder.onnx"
+        },
+        {
+          "name": "joiner.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-fr-kroko-2025-08-06/resolve/main/joiner.onnx"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-fr-kroko-2025-08-06/resolve/main/tokens.txt"
+        }
+      ]
+    },
+    {
+      "id": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
+      "engineType": "zipformer",
+      "folder": "zipformer/es",
+      "scriptType": "latin",
+      "unicodeRanges": [[65, 90], [97, 122], [192, 255]],
+      "sizeApproxBytes": 140000000,
+      "files": [
+        {
+          "name": "encoder.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-es-kroko-2025-08-06/resolve/main/encoder.onnx"
+        },
+        {
+          "name": "decoder.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-es-kroko-2025-08-06/resolve/main/decoder.onnx"
+        },
+        {
+          "name": "joiner.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-es-kroko-2025-08-06/resolve/main/joiner.onnx"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-es-kroko-2025-08-06/resolve/main/tokens.txt"
+        }
+      ]
+    },
+    {
+      "id": "ru",
+      "name": "Russian",
+      "nativeName": "Русский",
+      "engineType": "ctc",
+      "folder": "ctc/ru",
+      "scriptType": "cyrillic",
+      "unicodeRanges": [[1024, 1327]],
+      "sizeApproxBytes": 140000000,
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-nemo-ctc-giga-am-v2-russian-2025-04-19/resolve/main/model.int8.onnx"
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-nemo-ctc-giga-am-v2-russian-2025-04-19/resolve/main/tokens.txt"
+        }
+      ]
+    }
+  ]
+}
