@@ -1,4 +1,5 @@
 {
+  "last_updated": "1792416577"
   "vad": {
     "fileName": "silero_vad.onnx",
     "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
